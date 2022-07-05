@@ -1,0 +1,116 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  background-color: black;
+}
+
+p{
+  font-family: 'Montserrat', sans-serif;
+}
+
+h1{
+  margin: 5px;
+  font-family: 'Cormorant', serif;
+}
+
+.sc{
+  font-size: 70px;
+}
+
+h2{
+  font-weight: lighter;
+  font-family: 'Montserrat', sans-serif;
+  }
+
+.header{
+  height: 8vh;
+  align-items: center;
+  justify-content: space-between;
+  display: flex;
+}
+
+
+
+.menuicon{
+  width: 25px;
+  height: 2px;
+  background-color: white;
+  margin: 3px 30px;
+}
+
+.logo{
+  margin-top:20px;
+  width: 60px;
+  z-index: 1;
+}
+
+.search{
+  width: 25px;
+  margin: 0 30px;
+}
+
+.main{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  min-height: calc(100vh - 8vh - 7vh);
+}
+
+.heading{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  position: absolute;
+  top: 80px;
+  z-index: 1;
+  color: white;
+}
+
+.car-img{
+  width: 700px;
+  animation: cars 1s ease-in;
+}
+
+@keyframes cars {
+  0%{
+    filter: opacity(0%);
+  }
+  100%{
+    filter: opacity(100%);
+  }
+}
+
+
+.card{
+  display: inline-flex;
+  height: 120px;
+  width: 60vw;
+}
+
+
+.card-item{
+  width: 18vw;
+  background-color: black;
+  color: white;
+  animation: cards 4s ease-in;
+}
+
+@keyframes cards {
+  0%{
+    filter: opacity(0%);
+  }
+  100%{
+    filter: opacity(100%);
+  }
+}
+
+.footer{
+  font-family: 'Montserrat', sans-serif;
+  align-items: center;
+  justify-content: center;
+  height: 7vh;
+  width: 100vw;
+  display: flex;
+  color: white;
+}
